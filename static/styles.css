@@ -1,15 +1,25 @@
 body {
     display: flex;
+    font-family: roboto;
+    padding:0px;
+    margin: 0px;
 }
+
 
 .top-content {
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 500px;
     justify-content: center;
-    background-color: rgb(59, 159, 226);
-    padding: 10px 75px;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 10px 200px;
     flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 24px;
 }
 
 .header-row {
@@ -21,7 +31,28 @@ body {
 
 .hero {
     /* this sets element to center vertically */
-    margin: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-head {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    width: 500px;
+}
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+.hero-desc, .right-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-desc {
+    width: 400px;
 }
 
 ul {
@@ -29,5 +60,10 @@ ul {
     padding: 0px;
     margin: 0px;
     display: flex;
-    gap: 10px;
+    gap: 16px;
+}
+
+img {
+    width: 400px;
+    /* margin-left: auto; */
 }
