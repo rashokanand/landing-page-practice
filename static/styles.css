@@ -36,6 +36,23 @@ body {
     justify-content: space-between;
 }
 
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero button {
+    flex-grow: 0;
+    width: 120px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 8px;
+}
+
 .hero-head {
     font-size: 48px;
     font-weight: 900;
