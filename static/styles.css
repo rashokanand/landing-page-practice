@@ -88,3 +88,9 @@ img {
     width: 400px;
     /* margin-left: auto; */
 }
+
+/* second section styles below */
+
+.content-1 {
+    height: 500px;
+}
