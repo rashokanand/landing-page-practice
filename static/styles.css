@@ -120,3 +120,10 @@ img {
     text-align: center;
     color:rgb(77, 77, 77)
 }
+
+/* Style container for info boxes */
+.info-flexcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
