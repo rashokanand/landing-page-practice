@@ -1,0 +1,30 @@
+body {
+    display: flex;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    background-color: rgb(59, 159, 226);
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: auto;
+}
+
+.hero {
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 10px;
+}
