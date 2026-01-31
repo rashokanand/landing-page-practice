@@ -90,7 +90,33 @@ img {
 }
 
 /* second section styles below */
-
+/* container for complete section */
 .content-1 {
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+/* Heading of section */
+.content-1 .heading {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 50px;
+}
+
+/* info box in second section */
+.info-box .box {
+    height: 150px;
+    width: 150px;
+    border: 5px #3882f6 solid;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.info-box .subtext {
+    width: 150px;
+    text-align: center;
+    color:rgb(77, 77, 77)
 }
