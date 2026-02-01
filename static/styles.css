@@ -51,6 +51,7 @@ body {
     font-weight: 600;
     padding: 8px;
     border-radius: 8px;
+    border: none;
 }
 
 .hero-head {
@@ -62,6 +63,7 @@ body {
 .logo {
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 900;
 }
 .hero-desc, .right-links {
     font-size: 18px;
